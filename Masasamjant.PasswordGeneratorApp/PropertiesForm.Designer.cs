@@ -1,6 +1,6 @@
 ﻿namespace Masasamjant.Passwords
 {
-    partial class MainForm
+    partial class PropertiesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             SuspendLayout();
             // 
-            // MainForm
+            // PropertiesForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "MainForm";
-            Text = "Password Generator App";
+            Name = "PropertiesForm";
+            Text = "Password Properties";
             ResumeLayout(false);
         }
 
