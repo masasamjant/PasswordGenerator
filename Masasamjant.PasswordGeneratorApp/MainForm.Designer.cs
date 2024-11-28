@@ -76,6 +76,7 @@
             Controls.Add(textPassword);
             MaximizeBox = false;
             Name = "MainForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Password Generator App";
             Load += OnMainFormLoad;
             ResumeLayout(false);
