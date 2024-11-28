@@ -35,10 +35,11 @@
             // 
             // textPassword
             // 
+            textPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textPassword.Location = new Point(29, 23);
             textPassword.Name = "textPassword";
             textPassword.ReadOnly = true;
-            textPassword.Size = new Size(446, 23);
+            textPassword.Size = new Size(446, 29);
             textPassword.TabIndex = 0;
             // 
             // linkProperties
