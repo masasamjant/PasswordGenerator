@@ -28,18 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
+            textPassword = new TextBox();
+            linkProperties = new LinkLabel();
+            buttonNext = new Button();
             SuspendLayout();
+            // 
+            // textPassword
+            // 
+            textPassword.Location = new Point(29, 23);
+            textPassword.Name = "textPassword";
+            textPassword.ReadOnly = true;
+            textPassword.Size = new Size(446, 23);
+            textPassword.TabIndex = 0;
+            // 
+            // linkProperties
+            // 
+            linkProperties.AutoSize = true;
+            linkProperties.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkProperties.Location = new Point(29, 80);
+            linkProperties.Name = "linkProperties";
+            linkProperties.Size = new Size(60, 15);
+            linkProperties.TabIndex = 1;
+            linkProperties.TabStop = true;
+            linkProperties.Text = "&Properties";
+            linkProperties.UseWaitCursor = true;
+            linkProperties.VisitedLinkColor = Color.Blue;
+            linkProperties.LinkClicked += OnLinkPropertiesLinkClicked;
+            // 
+            // buttonNext
+            // 
+            buttonNext.Location = new Point(400, 76);
+            buttonNext.Name = "buttonNext";
+            buttonNext.Size = new Size(75, 23);
+            buttonNext.TabIndex = 2;
+            buttonNext.Text = "&Next";
+            buttonNext.UseVisualStyleBackColor = true;
+            buttonNext.Click += OnButtonNextClick;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(509, 117);
+            Controls.Add(buttonNext);
+            Controls.Add(linkProperties);
+            Controls.Add(textPassword);
+            MaximizeBox = false;
             Name = "MainForm";
             Text = "Password Generator App";
+            Load += OnMainFormLoad;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textPassword;
+        private LinkLabel linkProperties;
+        private Button buttonNext;
     }
 }

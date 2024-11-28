@@ -12,7 +12,7 @@ namespace Masasamjant.Passwords
 {
     public partial class PropertiesForm : Form
     {
-        public PropertiesForm()
+        internal PropertiesForm(PasswordGeneratorProperties properties)
         {
             InitializeComponent();
         }
