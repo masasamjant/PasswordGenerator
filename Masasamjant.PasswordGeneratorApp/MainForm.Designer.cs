@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             textPassword = new TextBox();
             linkProperties = new LinkLabel();
             buttonNext = new Button();
@@ -35,53 +36,36 @@
             // 
             // textPassword
             // 
-            textPassword.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textPassword.Location = new Point(29, 23);
+            resources.ApplyResources(textPassword, "textPassword");
             textPassword.Name = "textPassword";
             textPassword.ReadOnly = true;
-            textPassword.Size = new Size(275, 29);
-            textPassword.TabIndex = 0;
             // 
             // linkProperties
             // 
-            linkProperties.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            linkProperties.AutoSize = true;
+            resources.ApplyResources(linkProperties, "linkProperties");
             linkProperties.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkProperties.Location = new Point(29, 80);
             linkProperties.Name = "linkProperties";
-            linkProperties.Size = new Size(60, 15);
-            linkProperties.TabIndex = 1;
             linkProperties.TabStop = true;
-            linkProperties.Text = "&Properties";
             linkProperties.UseWaitCursor = true;
             linkProperties.VisitedLinkColor = Color.Blue;
             linkProperties.LinkClicked += OnLinkPropertiesLinkClicked;
             // 
             // buttonNext
             // 
-            buttonNext.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            buttonNext.Location = new Point(229, 76);
+            resources.ApplyResources(buttonNext, "buttonNext");
             buttonNext.Name = "buttonNext";
-            buttonNext.Size = new Size(75, 23);
-            buttonNext.TabIndex = 2;
-            buttonNext.Text = "&Next";
             buttonNext.UseVisualStyleBackColor = true;
             buttonNext.Click += OnButtonNextClick;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(338, 117);
             Controls.Add(buttonNext);
             Controls.Add(linkProperties);
             Controls.Add(textPassword);
             MaximizeBox = false;
-            MinimumSize = new Size(354, 156);
             Name = "MainForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Password Generator App";
             Load += OnMainFormLoad;
             ResumeLayout(false);
             PerformLayout();
