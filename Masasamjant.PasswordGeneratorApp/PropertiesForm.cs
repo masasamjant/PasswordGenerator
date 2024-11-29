@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Masasamjant.Passwords.Resources;
+using System.Text;
 
 namespace Masasamjant.Passwords
 {
@@ -55,7 +56,7 @@ namespace Masasamjant.Passwords
 
             if (minLength > maxLength)
             {
-                MessageBox.Show(this, "Min length must be less than or same as max length.", "Min length", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, Messages.MinimumLengthMessage, Messages.MinimumLengthTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 buttonSave.Enabled = false;
                 return;
             }
@@ -75,7 +76,7 @@ namespace Masasamjant.Passwords
 
             if (maxLength < minLength)
             {
-                MessageBox.Show(this, "Max length must be greater than or same as min length.", "Max length", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, Messages.MaximumLengthMessage, Messages.MaximumLengthTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 buttonSave.Enabled = false;
                 return;
             }
@@ -135,7 +136,7 @@ namespace Masasamjant.Passwords
             }
             else
             {
-                MessageBox.Show(this, "At least one character set must be selected.", "No characters.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, Messages.NoCharactersMessage, Messages.NoCharactersTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 buttonSave.Enabled = false;
                 return false;
             }
