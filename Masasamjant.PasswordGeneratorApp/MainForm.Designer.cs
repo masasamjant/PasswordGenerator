@@ -35,15 +35,17 @@
             // 
             // textPassword
             // 
+            textPassword.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textPassword.Location = new Point(29, 23);
             textPassword.Name = "textPassword";
             textPassword.ReadOnly = true;
-            textPassword.Size = new Size(446, 29);
+            textPassword.Size = new Size(275, 29);
             textPassword.TabIndex = 0;
             // 
             // linkProperties
             // 
+            linkProperties.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             linkProperties.AutoSize = true;
             linkProperties.LinkBehavior = LinkBehavior.NeverUnderline;
             linkProperties.Location = new Point(29, 80);
@@ -58,7 +60,8 @@
             // 
             // buttonNext
             // 
-            buttonNext.Location = new Point(400, 76);
+            buttonNext.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonNext.Location = new Point(229, 76);
             buttonNext.Name = "buttonNext";
             buttonNext.Size = new Size(75, 23);
             buttonNext.TabIndex = 2;
@@ -70,11 +73,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(509, 117);
+            ClientSize = new Size(338, 117);
             Controls.Add(buttonNext);
             Controls.Add(linkProperties);
             Controls.Add(textPassword);
             MaximizeBox = false;
+            MinimumSize = new Size(354, 156);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Password Generator App";
