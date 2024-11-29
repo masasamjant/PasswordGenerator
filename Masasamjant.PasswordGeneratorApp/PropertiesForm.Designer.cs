@@ -50,6 +50,7 @@
             // 
             // groupProperties
             // 
+            groupProperties.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             groupProperties.Controls.Add(groupComplexity);
             groupProperties.Controls.Add(numMaxLength);
             groupProperties.Controls.Add(labelMaxLength);
@@ -59,20 +60,21 @@
             groupProperties.Controls.Add(labelCharacters);
             groupProperties.Location = new Point(12, 12);
             groupProperties.Name = "groupProperties";
-            groupProperties.Size = new Size(553, 327);
+            groupProperties.Size = new Size(344, 346);
             groupProperties.TabIndex = 0;
             groupProperties.TabStop = false;
             groupProperties.Text = "Properties";
             // 
             // groupComplexity
             // 
+            groupComplexity.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             groupComplexity.Controls.Add(checkSpecials);
             groupComplexity.Controls.Add(checkNumbers);
             groupComplexity.Controls.Add(checkUpperCaseLetters);
             groupComplexity.Controls.Add(checkLowerCaseLetters);
-            groupComplexity.Location = new Point(23, 200);
+            groupComplexity.Location = new Point(23, 224);
             groupComplexity.Name = "groupComplexity";
-            groupComplexity.Size = new Size(503, 100);
+            groupComplexity.Size = new Size(294, 100);
             groupComplexity.TabIndex = 6;
             groupComplexity.TabStop = false;
             groupComplexity.Text = "Complexity";
@@ -82,7 +84,7 @@
             checkSpecials.AutoSize = true;
             checkSpecials.Checked = true;
             checkSpecials.CheckState = CheckState.Checked;
-            checkSpecials.Location = new Point(251, 66);
+            checkSpecials.Location = new Point(193, 61);
             checkSpecials.Name = "checkSpecials";
             checkSpecials.Size = new Size(68, 19);
             checkSpecials.TabIndex = 3;
@@ -95,7 +97,7 @@
             checkNumbers.AutoSize = true;
             checkNumbers.Checked = true;
             checkNumbers.CheckState = CheckState.Checked;
-            checkNumbers.Location = new Point(251, 36);
+            checkNumbers.Location = new Point(193, 32);
             checkNumbers.Name = "checkNumbers";
             checkNumbers.Size = new Size(75, 19);
             checkNumbers.TabIndex = 2;
@@ -108,7 +110,7 @@
             checkUpperCaseLetters.AutoSize = true;
             checkUpperCaseLetters.Checked = true;
             checkUpperCaseLetters.CheckState = CheckState.Checked;
-            checkUpperCaseLetters.Location = new Point(39, 66);
+            checkUpperCaseLetters.Location = new Point(26, 61);
             checkUpperCaseLetters.Name = "checkUpperCaseLetters";
             checkUpperCaseLetters.Size = new Size(119, 19);
             checkUpperCaseLetters.TabIndex = 1;
@@ -121,7 +123,7 @@
             checkLowerCaseLetters.AutoSize = true;
             checkLowerCaseLetters.Checked = true;
             checkLowerCaseLetters.CheckState = CheckState.Checked;
-            checkLowerCaseLetters.Location = new Point(39, 36);
+            checkLowerCaseLetters.Location = new Point(26, 32);
             checkLowerCaseLetters.Name = "checkLowerCaseLetters";
             checkLowerCaseLetters.Size = new Size(119, 19);
             checkLowerCaseLetters.TabIndex = 0;
@@ -131,7 +133,7 @@
             // 
             // numMaxLength
             // 
-            numMaxLength.Location = new Point(352, 163);
+            numMaxLength.Location = new Point(97, 188);
             numMaxLength.Name = "numMaxLength";
             numMaxLength.Size = new Size(120, 23);
             numMaxLength.TabIndex = 5;
@@ -140,7 +142,7 @@
             // labelMaxLength
             // 
             labelMaxLength.AutoSize = true;
-            labelMaxLength.Location = new Point(274, 165);
+            labelMaxLength.Location = new Point(23, 190);
             labelMaxLength.Name = "labelMaxLength";
             labelMaxLength.Size = new Size(70, 15);
             labelMaxLength.TabIndex = 4;
@@ -148,7 +150,7 @@
             // 
             // numMinLength
             // 
-            numMinLength.Location = new Point(97, 163);
+            numMinLength.Location = new Point(97, 155);
             numMinLength.Name = "numMinLength";
             numMinLength.Size = new Size(120, 23);
             numMinLength.TabIndex = 3;
@@ -157,7 +159,7 @@
             // labelMinLength
             // 
             labelMinLength.AutoSize = true;
-            labelMinLength.Location = new Point(23, 165);
+            labelMinLength.Location = new Point(23, 157);
             labelMinLength.Name = "labelMinLength";
             labelMinLength.Size = new Size(68, 15);
             labelMinLength.TabIndex = 2;
@@ -165,18 +167,19 @@
             // 
             // textCharacters
             // 
+            textCharacters.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textCharacters.Enabled = false;
-            textCharacters.Location = new Point(23, 70);
+            textCharacters.Location = new Point(23, 56);
             textCharacters.Multiline = true;
             textCharacters.Name = "textCharacters";
             textCharacters.ReadOnly = true;
-            textCharacters.Size = new Size(503, 80);
+            textCharacters.Size = new Size(294, 80);
             textCharacters.TabIndex = 1;
             // 
             // labelCharacters
             // 
             labelCharacters.AutoSize = true;
-            labelCharacters.Location = new Point(23, 40);
+            labelCharacters.Location = new Point(23, 30);
             labelCharacters.Name = "labelCharacters";
             labelCharacters.Size = new Size(66, 15);
             labelCharacters.TabIndex = 0;
@@ -184,8 +187,9 @@
             // 
             // buttonCancel
             // 
+            buttonCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonCancel.DialogResult = DialogResult.Cancel;
-            buttonCancel.Location = new Point(490, 359);
+            buttonCancel.Location = new Point(281, 373);
             buttonCancel.Name = "buttonCancel";
             buttonCancel.Size = new Size(75, 23);
             buttonCancel.TabIndex = 1;
@@ -195,8 +199,9 @@
             // 
             // buttonSave
             // 
+            buttonSave.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonSave.DialogResult = DialogResult.OK;
-            buttonSave.Location = new Point(409, 359);
+            buttonSave.Location = new Point(200, 373);
             buttonSave.Name = "buttonSave";
             buttonSave.Size = new Size(75, 23);
             buttonSave.TabIndex = 2;
@@ -208,11 +213,12 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(577, 394);
+            ClientSize = new Size(368, 408);
             Controls.Add(buttonSave);
             Controls.Add(buttonCancel);
             Controls.Add(groupProperties);
             MaximizeBox = false;
+            MinimumSize = new Size(384, 447);
             Name = "PropertiesForm";
             Text = "Password Properties";
             Load += OnPropertiesFormLoad;
