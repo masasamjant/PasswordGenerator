@@ -96,6 +96,7 @@
         /// Gets how many special characters are included in password.
         /// Used only if <see cref="Complexity"/> has <see cref="PasswordComplexity.Specials"/> flag.
         /// </summary>
+        /// <remarks>If password consist only from special characters, then whole password if filled with special characters.</remarks>
         public int? SpecialCharacterCount { get; private set; }
 
         /// <summary>
