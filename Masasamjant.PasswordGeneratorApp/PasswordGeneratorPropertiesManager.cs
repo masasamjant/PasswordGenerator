@@ -21,7 +21,12 @@ namespace Masasamjant.Passwords
             if (!settings.UseSpecials)
                 complexity &= ~PasswordComplexity.Specials;
 
-            return new PasswordGeneratorProperties(settings.MinLength, settings.MaxLength, complexity);
+            var properties = new PasswordGeneratorProperties(settings.MinLength, settings.MaxLength, complexity);
+
+            if (settings.SpecialCharacterCount > 0)
+                properties.ChangeSpecialCharacterCount(settings.SpecialCharacterCount);
+
+            return properties;
         }
 
         public static void SaveProperties(PasswordGeneratorProperties properties)
@@ -33,6 +38,7 @@ namespace Masasamjant.Passwords
             settings.UseUpperCaseLetters = properties.Complexity.HasFlag(PasswordComplexity.UpperCaseLetters);
             settings.UseNumbers = properties.Complexity.HasFlag(PasswordComplexity.Numbers);
             settings.UseSpecials = properties.Complexity.HasFlag(PasswordComplexity.Specials);
+            settings.SpecialCharacterCount = properties.SpecialCharacterCount.GetValueOrDefault(0);
             settings.Save();
         }
     }
