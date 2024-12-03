@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PropertiesForm));
             groupProperties = new GroupBox();
             groupComplexity = new GroupBox();
+            panelSpecialCount = new Panel();
+            numSpecialCount = new NumericUpDown();
+            labelSpecialCount = new Label();
             checkSpecials = new CheckBox();
             checkNumbers = new CheckBox();
             checkUpperCaseLetters = new CheckBox();
@@ -45,6 +48,8 @@
             buttonSave = new Button();
             groupProperties.SuspendLayout();
             groupComplexity.SuspendLayout();
+            panelSpecialCount.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numSpecialCount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numMaxLength).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numMinLength).BeginInit();
             SuspendLayout();
@@ -65,12 +70,32 @@
             // groupComplexity
             // 
             resources.ApplyResources(groupComplexity, "groupComplexity");
+            groupComplexity.Controls.Add(panelSpecialCount);
             groupComplexity.Controls.Add(checkSpecials);
             groupComplexity.Controls.Add(checkNumbers);
             groupComplexity.Controls.Add(checkUpperCaseLetters);
             groupComplexity.Controls.Add(checkLowerCaseLetters);
             groupComplexity.Name = "groupComplexity";
             groupComplexity.TabStop = false;
+            // 
+            // panelSpecialCount
+            // 
+            resources.ApplyResources(panelSpecialCount, "panelSpecialCount");
+            panelSpecialCount.Controls.Add(numSpecialCount);
+            panelSpecialCount.Controls.Add(labelSpecialCount);
+            panelSpecialCount.Name = "panelSpecialCount";
+            // 
+            // numSpecialCount
+            // 
+            resources.ApplyResources(numSpecialCount, "numSpecialCount");
+            numSpecialCount.Maximum = new decimal(new int[] { 200, 0, 0, 0 });
+            numSpecialCount.Name = "numSpecialCount";
+            numSpecialCount.ValueChanged += OnNumSpecialCountValueChanged;
+            // 
+            // labelSpecialCount
+            // 
+            resources.ApplyResources(labelSpecialCount, "labelSpecialCount");
+            labelSpecialCount.Name = "labelSpecialCount";
             // 
             // checkSpecials
             // 
@@ -171,6 +196,9 @@
             groupProperties.PerformLayout();
             groupComplexity.ResumeLayout(false);
             groupComplexity.PerformLayout();
+            panelSpecialCount.ResumeLayout(false);
+            panelSpecialCount.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numSpecialCount).EndInit();
             ((System.ComponentModel.ISupportInitialize)numMaxLength).EndInit();
             ((System.ComponentModel.ISupportInitialize)numMinLength).EndInit();
             ResumeLayout(false);
@@ -192,5 +220,8 @@
         private CheckBox checkLowerCaseLetters;
         private CheckBox checkSpecials;
         private CheckBox checkNumbers;
+        private Panel panelSpecialCount;
+        private NumericUpDown numSpecialCount;
+        private Label labelSpecialCount;
     }
 }

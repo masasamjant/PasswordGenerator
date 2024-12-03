@@ -186,7 +186,10 @@
         /// Creates copy from current instance.
         /// </summary>
         /// <returns>A copy from current instance.</returns>
-        public PasswordGeneratorProperties Clone() => new(MinLength, MaxLength, Complexity);
+        public PasswordGeneratorProperties Clone() => new(MinLength, MaxLength, Complexity) 
+        { 
+            SpecialCharacterCount = SpecialCharacterCount 
+        };
 
         object ICloneable.Clone()
         {

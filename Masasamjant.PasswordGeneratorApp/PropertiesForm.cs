@@ -13,9 +13,9 @@ namespace Masasamjant.Passwords
             InitializeComponent();
             this.properties = properties;
             numMinLength.Minimum = PasswordGeneratorProperties.DefaultMinLength;
-            numMinLength.Maximum = PasswordGeneratorProperties.DefaultMaxLength;           
+            numMinLength.Maximum = PasswordGeneratorProperties.DefaultMaxLength;
             numMaxLength.Minimum = PasswordGeneratorProperties.DefaultMinLength;
-            numMaxLength.Maximum = PasswordGeneratorProperties.DefaultMaxLength;         
+            numMaxLength.Maximum = PasswordGeneratorProperties.DefaultMaxLength;
         }
 
         private void OnButtonSaveClick(object sender, EventArgs e)
@@ -39,6 +39,8 @@ namespace Masasamjant.Passwords
                 checkSpecials.Checked = properties.Complexity.HasFlag(PasswordComplexity.Specials);
                 numMinLength.Value = properties.MinLength;
                 numMaxLength.Value = properties.MaxLength;
+                panelSpecialCount.Visible = checkSpecials.Checked;
+                numSpecialCount.Value = properties.SpecialCharacterCount.GetValueOrDefault(0);
                 BuildCharactersText();
             }
             finally
@@ -87,6 +89,13 @@ namespace Masasamjant.Passwords
             }
         }
 
+        private void OnNumSpecialCountValueChanged(object sender, EventArgs e)
+        {
+            if (suspendControlEvents || !checkSpecials.Checked) return;
+            int value = Convert.ToInt32(numSpecialCount.Value);
+            properties.ChangeSpecialCharacterCount(value > 0 ? value : null);
+        }
+
         private void OnCheckLowerCaseLettersCheckedChanged(object sender, EventArgs e)
         {
             if (suspendControlEvents || !IsAnyComplexityChecked()) return;
@@ -109,6 +118,7 @@ namespace Masasamjant.Passwords
         {
             if (suspendControlEvents || !IsAnyComplexityChecked()) return;
             ChangePasswordComplexity(PasswordComplexity.Specials, checkSpecials.Checked);
+            panelSpecialCount.Visible = checkSpecials.Checked;
         }
 
         private void ChangePasswordComplexity(PasswordComplexity flag, bool set)

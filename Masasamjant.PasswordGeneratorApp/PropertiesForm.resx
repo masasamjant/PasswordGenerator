@@ -117,395 +117,464 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;labelMinLength.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textCharacters.Parent" xml:space="preserve">
     <value>groupProperties</value>
   </data>
-  <data name="buttonCancel.Text" xml:space="preserve">
-    <value>&amp;Cancel</value>
-  </data>
-  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupComplexity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="numMaxLength.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="labelMaxLength.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="groupComplexity.Text" xml:space="preserve">
-    <value>Complexity</value>
+  <data name="&gt;&gt;numSpecialCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelMinLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 15</value>
+  </data>
+  <data name="checkSpecials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="numMinLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 155</value>
   </data>
   <data name="textCharacters.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;numMinLength.Parent" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="groupComplexity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numMaxLength.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelMinLength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelCharacters.Name" xml:space="preserve">
+    <value>labelCharacters</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelMaxLength.Text" xml:space="preserve">
+    <value>Maximum length:</value>
+  </data>
+  <data name="textCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 56</value>
+  </data>
+  <data name="labelCharacters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 15</value>
+  </data>
+  <data name="&gt;&gt;numSpecialCount.Parent" xml:space="preserve">
+    <value>panelSpecialCount</value>
+  </data>
+  <data name="&gt;&gt;labelSpecialCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkLowerCaseLetters.Parent" xml:space="preserve">
+    <value>groupComplexity</value>
+  </data>
+  <data name="&gt;&gt;numMinLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupComplexity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 224</value>
+  </data>
+  <data name="panelSpecialCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 53</value>
+  </data>
+  <data name="&gt;&gt;numMaxLength.Name" xml:space="preserve">
+    <value>numMaxLength</value>
+  </data>
+  <data name="&gt;&gt;checkNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numMaxLength.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupComplexity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 124</value>
+  </data>
+  <data name="checkNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 95</value>
+  </data>
+  <data name="checkUpperCaseLetters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelCharacters.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkLowerCaseLetters.Text" xml:space="preserve">
+    <value>Lower case letters</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="&gt;&gt;checkSpecials.Name" xml:space="preserve">
+    <value>checkSpecials</value>
+  </data>
+  <data name="&gt;&gt;checkNumbers.Name" xml:space="preserve">
+    <value>checkNumbers</value>
+  </data>
+  <data name="&gt;&gt;labelMaxLength.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelSpecialCount.Name" xml:space="preserve">
+    <value>labelSpecialCount</value>
+  </data>
+  <data name="&gt;&gt;numMinLength.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numSpecialCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupComplexity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
   <data name="&gt;&gt;groupComplexity.Name" xml:space="preserve">
+    <value>groupComplexity</value>
+  </data>
+  <data name="&gt;&gt;numMinLength.Name" xml:space="preserve">
+    <value>numMinLength</value>
+  </data>
+  <data name="&gt;&gt;labelCharacters.Parent" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="labelMinLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 157</value>
+  </data>
+  <data name="checkUpperCaseLetters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 61</value>
+  </data>
+  <data name="&gt;&gt;textCharacters.Name" xml:space="preserve">
+    <value>textCharacters</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Password Properties</value>
+  </data>
+  <data name="labelMaxLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 15</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 391</value>
+  </data>
+  <data name="&gt;&gt;groupProperties.Name" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="checkNumbers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMaxLength.Name" xml:space="preserve">
+    <value>labelMaxLength</value>
+  </data>
+  <data name="&gt;&gt;labelMinLength.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkUpperCaseLetters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCharacters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMinLength.Parent" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="&gt;&gt;numSpecialCount.Name" xml:space="preserve">
+    <value>numSpecialCount</value>
+  </data>
+  <data name="&gt;&gt;groupProperties.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupComplexity.Text" xml:space="preserve">
+    <value>Complexity</value>
+  </data>
+  <data name="textCharacters.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelMinLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numMaxLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numMinLength.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkNumbers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelSpecialCount.Parent" xml:space="preserve">
     <value>groupComplexity</value>
   </data>
   <data name="&gt;&gt;labelMinLength.Name" xml:space="preserve">
     <value>labelMinLength</value>
   </data>
-  <data name="&gt;&gt;labelMinLength.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkLowerCaseLetters.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="groupProperties.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;checkLowerCaseLetters.Name" xml:space="preserve">
-    <value>checkLowerCaseLetters</value>
-  </data>
-  <data name="&gt;&gt;numMaxLength.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="checkSpecials.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;groupComplexity.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;checkUpperCaseLetters.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelMaxLength.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="buttonSave.Text" xml:space="preserve">
-    <value>&amp;Save</value>
-  </data>
-  <data name="checkSpecials.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMinLength.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 373</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="buttonSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelMaxLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 190</value>
-  </data>
-  <data name="checkNumbers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 32</value>
-  </data>
-  <data name="labelMinLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 15</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
-    <value>buttonSave</value>
-  </data>
-  <data name="&gt;&gt;checkSpecials.Parent" xml:space="preserve">
-    <value>groupComplexity</value>
-  </data>
   <data name="textCharacters.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;numMinLength.Parent" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="&gt;&gt;numMinLength.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;groupProperties.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelMinLength.Text" xml:space="preserve">
-    <value>Minimum length:</value>
-  </data>
-  <data name="numMaxLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="&gt;&gt;numMinLength.Name" xml:space="preserve">
-    <value>numMinLength</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Password Properties</value>
-  </data>
-  <data name="textCharacters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 56</value>
-  </data>
-  <data name="numMinLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="checkNumbers.Text" xml:space="preserve">
-    <value>Numbers</value>
-  </data>
-  <data name="&gt;&gt;textCharacters.Name" xml:space="preserve">
-    <value>textCharacters</value>
-  </data>
-  <data name="&gt;&gt;numMaxLength.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelCharacters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 30</value>
-  </data>
-  <data name="buttonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;checkSpecials.Name" xml:space="preserve">
-    <value>checkSpecials</value>
-  </data>
-  <data name="&gt;&gt;groupProperties.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="checkLowerCaseLetters.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="textCharacters.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupComplexity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;checkUpperCaseLetters.Name" xml:space="preserve">
-    <value>checkUpperCaseLetters</value>
-  </data>
-  <data name="checkSpecials.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 61</value>
-  </data>
-  <data name="labelMinLength.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="checkUpperCaseLetters.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="checkUpperCaseLetters.Text" xml:space="preserve">
-    <value>Upper case letters</value>
-  </data>
-  <data name="groupComplexity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 224</value>
-  </data>
-  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="checkNumbers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 19</value>
-  </data>
-  <data name="&gt;&gt;labelCharacters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numMaxLength.Parent" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="checkLowerCaseLetters.Text" xml:space="preserve">
-    <value>Lower case letters</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PropertiesForm</value>
-  </data>
-  <data name="&gt;&gt;labelCharacters.Name" xml:space="preserve">
-    <value>labelCharacters</value>
-  </data>
-  <data name="groupComplexity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 100</value>
-  </data>
-  <data name="checkLowerCaseLetters.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelMaxLength.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;textCharacters.Parent" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="labelCharacters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 15</value>
-  </data>
-  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>368, 408</value>
-  </data>
-  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;groupProperties.Name" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="checkSpecials.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;checkLowerCaseLetters.Parent" xml:space="preserve">
-    <value>groupComplexity</value>
-  </data>
-  <data name="numMinLength.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;textCharacters.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;checkNumbers.Parent" xml:space="preserve">
-    <value>groupComplexity</value>
-  </data>
-  <data name="labelMaxLength.Text" xml:space="preserve">
-    <value>Maximum length:</value>
-  </data>
-  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 373</value>
-  </data>
-  <data name="&gt;&gt;checkSpecials.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="numMinLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 155</value>
-  </data>
-  <data name="checkSpecials.Text" xml:space="preserve">
-    <value>Specials</value>
   </data>
   <data name="&gt;&gt;textCharacters.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;checkNumbers.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelCharacters.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelCharacters.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="labelMinLength.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="numMaxLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="&gt;&gt;numSpecialCount.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="labelCharacters.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="checkLowerCaseLetters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;checkSpecials.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="groupProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 346</value>
-  </data>
-  <data name="&gt;&gt;checkNumbers.Name" xml:space="preserve">
-    <value>checkNumbers</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="groupProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;numMinLength.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelMaxLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 15</value>
+  <data name="&gt;&gt;panelSpecialCount.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="textCharacters.Size" type="System.Drawing.Size, System.Drawing">
     <value>294, 80</value>
   </data>
-  <data name="checkUpperCaseLetters.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;groupComplexity.Parent" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="checkSpecials.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 19</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelMaxLength.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelMaxLength.Parent" xml:space="preserve">
-    <value>groupProperties</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>384, 447</value>
-  </data>
-  <data name="labelCharacters.Text" xml:space="preserve">
-    <value>Characters:</value>
-  </data>
-  <data name="labelMaxLength.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;numMaxLength.Name" xml:space="preserve">
-    <value>numMaxLength</value>
-  </data>
-  <data name="groupProperties.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="checkNumbers.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;checkLowerCaseLetters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkUpperCaseLetters.Parent" xml:space="preserve">
-    <value>groupComplexity</value>
-  </data>
-  <data name="groupComplexity.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="groupProperties.Text" xml:space="preserve">
-    <value>Properties</value>
-  </data>
-  <data name="checkLowerCaseLetters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 19</value>
+  <data name="buttonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="textCharacters.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;checkNumbers.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
   </data>
-  <data name="checkNumbers.AutoSize" type="System.Boolean, mscorlib">
+  <data name="&gt;&gt;panelSpecialCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>368, 426</value>
+  </data>
+  <data name="labelSpecialCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;groupProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkUpperCaseLetters.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 391</value>
+  </data>
+  <data name="labelCharacters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 30</value>
+  </data>
+  <data name="&gt;&gt;checkUpperCaseLetters.Name" xml:space="preserve">
+    <value>checkUpperCaseLetters</value>
+  </data>
+  <data name="&gt;&gt;textCharacters.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="labelSpecialCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkSpecials.Text" xml:space="preserve">
+    <value>Specials</value>
+  </data>
+  <data name="groupProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="numSpecialCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="checkLowerCaseLetters.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="checkUpperCaseLetters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 19</value>
-  </data>
-  <data name="&gt;&gt;labelMinLength.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkUpperCaseLetters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 61</value>
   </data>
   <data name="checkLowerCaseLetters.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 32</value>
   </data>
+  <data name="&gt;&gt;checkSpecials.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkUpperCaseLetters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 19</value>
+  </data>
+  <data name="&gt;&gt;checkLowerCaseLetters.Name" xml:space="preserve">
+    <value>checkLowerCaseLetters</value>
+  </data>
+  <data name="&gt;&gt;checkSpecials.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;labelMaxLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>384, 447</value>
+  </data>
+  <data name="&gt;&gt;numMaxLength.Parent" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="&gt;&gt;checkSpecials.Parent" xml:space="preserve">
+    <value>groupComplexity</value>
+  </data>
+  <data name="checkSpecials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="&gt;&gt;groupComplexity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelSpecialCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkLowerCaseLetters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 19</value>
+  </data>
+  <data name="&gt;&gt;checkUpperCaseLetters.Parent" xml:space="preserve">
+    <value>groupComplexity</value>
+  </data>
+  <data name="&gt;&gt;labelCharacters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
   <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
     <value>buttonCancel</value>
   </data>
-  <data name="&gt;&gt;checkUpperCaseLetters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelCharacters.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;labelMaxLength.Name" xml:space="preserve">
-    <value>labelMaxLength</value>
+  <data name="checkNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
   </data>
-  <data name="&gt;&gt;labelCharacters.Parent" xml:space="preserve">
+  <data name="checkUpperCaseLetters.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkNumbers.Parent" xml:space="preserve">
+    <value>groupComplexity</value>
+  </data>
+  <data name="&gt;&gt;labelMaxLength.Parent" xml:space="preserve">
     <value>groupProperties</value>
   </data>
-  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="numMinLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
   </data>
   <data name="numMaxLength.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 188</value>
   </data>
-  <data name="labelMinLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 157</value>
-  </data>
-  <data name="&gt;&gt;groupProperties.ZOrder" xml:space="preserve">
+  <data name="checkNumbers.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupProperties.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 365</value>
+  </data>
+  <data name="&gt;&gt;checkLowerCaseLetters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PropertiesForm</value>
+  </data>
+  <data name="labelMinLength.Text" xml:space="preserve">
+    <value>Minimum length:</value>
+  </data>
+  <data name="panelSpecialCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 61</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpecialCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelSpecialCount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkUpperCaseLetters.Text" xml:space="preserve">
+    <value>Upper case letters</value>
+  </data>
+  <data name="&gt;&gt;groupComplexity.Parent" xml:space="preserve">
+    <value>groupProperties</value>
+  </data>
+  <data name="&gt;&gt;checkLowerCaseLetters.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkNumbers.Text" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="labelMaxLength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panelSpecialCount.Name" xml:space="preserve">
+    <value>panelSpecialCount</value>
+  </data>
+  <data name="labelSpecialCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMaxLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 190</value>
+  </data>
+  <data name="labelSpecialCount.Text" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSpecialCount.Parent" xml:space="preserve">
+    <value>panelSpecialCount</value>
+  </data>
+  <data name="labelCharacters.Text" xml:space="preserve">
+    <value>Characters:</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="checkSpecials.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="numSpecialCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
