@@ -93,6 +93,12 @@
         public PasswordComplexity Complexity { get; private set; }
 
         /// <summary>
+        /// Gets how many special characters are included in password.
+        /// Used only if <see cref="Complexity"/> has <see cref="PasswordComplexity.Specials"/> flag.
+        /// </summary>
+        public int? SpecialCharacterCount { get; private set; }
+
+        /// <summary>
         /// Change password complexity requirements.
         /// </summary>
         /// <param name="complexity">The new password complexity requirements.</param>
@@ -159,6 +165,21 @@
                 throw new ArgumentOutOfRangeException(nameof(maxLength), maxLength, "Max length must be greater than or equal to current min length.");
 
             MaxLength = maxLength;
+        }
+
+        /// <summary>
+        /// Change <see cref="SpecialCharacterCount"/>.
+        /// </summary>
+        /// <param name="count">The new special character count.</param>
+        /// <exception cref="ArgumentOutOfRangeException">If <paramref name="count"/> has value and value is less than 1.</exception>
+        public void ChangeSpecialCharacterCount(int? count)
+        {
+            if (SpecialCharacterCount == count) return;
+
+            if (count.HasValue && count.Value < 1)
+                throw new ArgumentOutOfRangeException(nameof(count), count, "Special character count must be greater than or equal to 1.");
+
+            SpecialCharacterCount = count;
         }
 
         /// <summary>
