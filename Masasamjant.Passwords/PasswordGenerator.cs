@@ -43,7 +43,7 @@ namespace Masasamjant.Passwords
                 ? currentProperties.MinLength : random.Next(currentProperties.MinLength, currentProperties.MaxLength + 1);
 
             // Get how many special characters should be included.
-            int specialCount = hasSpecials ? GetSpecialCharacterCount(length, currentProperties) : 0;
+            int specialCount = hasSpecials ? currentProperties.GetSpecialCharacterCount(length) : 0;
 
             // Set how many number characters should be included.
             int numberCount = hasNumbers ? Math.Max(specialCount, 1) + 1 : 0;
@@ -122,26 +122,6 @@ namespace Masasamjant.Passwords
             }
 
             return builder.ToString();
-        }
-
-        private static int GetSpecialCharacterCount(int length, PasswordGeneratorProperties properties)
-        {
-            if (properties.SpecialCharacterCount.HasValue)
-                return properties.SpecialCharacterCount.Value;
-            else 
-            {
-                if (length <= 8)
-                    return 1;
-                else if (length <= 16)
-                    return 2;
-                else if (length <= 32)
-                    return 4;
-                else if (length <= 64)
-                    return 6;
-                else if (length <= 128)
-                    return 8;
-                return 10;
-            }
         }
 
         private static char GetRandomCharacter(IList<char> list, Random random) => list[random.Next(0, list.Count)];

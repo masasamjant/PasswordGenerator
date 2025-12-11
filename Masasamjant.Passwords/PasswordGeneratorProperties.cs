@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents properties of generated password.
     /// </summary>
-    public sealed class PasswordGeneratorProperties : ICloneable
+    public sealed class PasswordGeneratorProperties : IPasswordProperties, ICloneable
     {
         /// <summary>
         /// Default minimum length of 8, that is also lowest value of <see cref="MinLength"/>. 
