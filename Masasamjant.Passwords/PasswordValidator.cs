@@ -16,12 +16,17 @@ namespace Masasamjant.Passwords
         /// <summary>
         /// Initializes new instance of the <see cref="PasswordValidator"/> class.
         /// </summary>
-        /// <param name="properties"></param>
+        /// <param name="properties">The password properties.</param>
         public PasswordValidator(IPasswordProperties properties)
         {
             this.properties = properties;
         }
 
+        /// <summary>
+        /// Validates specified password.
+        /// </summary>
+        /// <param name="password">The password value.</param>
+        /// <returns>A validation error message. If <c>null</c>, then <paramref name="password"/> is valid.</returns>
         public string? ValidatePassword(string password)
         {
             var currentProperties = properties;
