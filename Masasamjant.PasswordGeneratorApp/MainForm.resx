@@ -117,115 +117,148 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
   <data name="textPassword.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
-  <data name="textPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 23</value>
-  </data>
-  <data name="textPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>275, 29</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="textPassword.TabIndex" type="System.Int32, mscorlib">
+  <data name="linkEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;linkEdit.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;textPassword.Name" xml:space="preserve">
-    <value>textPassword</value>
-  </data>
-  <data name="&gt;&gt;textPassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textPassword.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textPassword.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="linkProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="linkProperties.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="linkProperties.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 80</value>
-  </data>
-  <data name="linkProperties.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 15</value>
-  </data>
-  <data name="linkProperties.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="linkProperties.Text" xml:space="preserve">
-    <value>&amp;Properties</value>
-  </data>
-  <data name="&gt;&gt;linkProperties.Name" xml:space="preserve">
-    <value>linkProperties</value>
-  </data>
-  <data name="&gt;&gt;linkProperties.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;linkProperties.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;linkProperties.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="buttonNext.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 76</value>
   </data>
   <data name="buttonNext.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="buttonNext.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="linkEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 31</value>
   </data>
-  <data name="buttonNext.Text" xml:space="preserve">
-    <value>&amp;Next</value>
-  </data>
-  <data name="&gt;&gt;buttonNext.Name" xml:space="preserve">
-    <value>buttonNext</value>
-  </data>
-  <data name="&gt;&gt;buttonNext.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonNext.Parent" xml:space="preserve">
+  <data name="&gt;&gt;linkEdit.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;buttonNext.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linkEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="buttonNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 76</value>
+  </data>
+  <data name="textPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 23</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>338, 117</value>
+    <value>402, 117</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>354, 156</value>
+  <data name="&gt;&gt;linkEdit.Name" xml:space="preserve">
+    <value>linkEdit</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Salasana generaattori</value>
+  <data name="&gt;&gt;linkProperties.Name" xml:space="preserve">
+    <value>linkProperties</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
+  <data name="&gt;&gt;linkProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="linkProperties.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textPassword.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textPassword.Name" xml:space="preserve">
+    <value>textPassword</value>
+  </data>
+  <data name="linkProperties.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 80</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Name" xml:space="preserve">
+    <value>buttonNext</value>
+  </data>
+  <data name="&gt;&gt;textPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Password generator</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>354, 156</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="linkEdit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="linkEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="linkProperties.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 15</value>
+  </data>
+  <data name="&gt;&gt;linkProperties.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="linkProperties.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="linkEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 15</value>
+  </data>
+  <data name="buttonNext.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 29</value>
+  </data>
+  <data name="linkProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="textPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;linkEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonNext.Text" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textPassword.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkProperties.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="linkEdit.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="linkProperties.Text" xml:space="preserve">
+    <value>&amp;Properties</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

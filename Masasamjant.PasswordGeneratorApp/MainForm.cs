@@ -1,9 +1,12 @@
-﻿namespace Masasamjant.Passwords
+﻿using Masasamjant.Passwords.Resources;
+
+namespace Masasamjant.Passwords
 {
     public partial class MainForm : Form
     {
         private PasswordGeneratorProperties properties;
         private PasswordGenerator generator;
+        private bool editPassword = false;
 
         public MainForm()
         {
@@ -37,6 +40,31 @@
         private void GeneratePassword()
         {
             textPassword.Text = generator.Generate();
+            EnableEdit();
+        }
+
+        private void EnableEdit()
+        {
+            linkEdit.Enabled = true;
+        }
+
+        private void OnLinkEditClick(object sender, EventArgs e)
+        {
+            if (editPassword)
+            {
+                editPassword = false;
+                linkEdit.Enabled = false;
+                textPassword.ReadOnly = true;
+                buttonNext.Enabled = true;
+                linkEdit.Text = TextResource.Edit;
+            }
+            else
+            {
+                editPassword = true;
+                textPassword.ReadOnly = false;
+                buttonNext.Enabled = false;
+                linkEdit.Text = TextResource.Done;
+            }
         }
     }
 }
